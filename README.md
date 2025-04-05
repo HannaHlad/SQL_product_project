@@ -8,17 +8,17 @@ Let’s take a look at the data we will be working with. We have a relational da
 
 ![Relation_table](https://github.com/user-attachments/assets/1777fcf4-8c76-4c6a-95f8-5b6cd6cdc9cd)
 
-*Structure and contents of the tables:*
+**Structure and contents of the tables:**
 
-*user_actions* — user interactions with orders.
+**user_actions** — user interactions with orders.
 
-*courier_actions* — courier interactions with orders.
+**courier_actions** — courier interactions with orders.
 
-*orders* — information about orders.
+**orders** — information about orders.
 
-*users* — information about users.
+**users** — information about users.
 
-*couriers* — information about couriers.
+**couriers** — information about couriers.
 
-*products* — information about the products delivered by the service.
+**products** — information about the products delivered by the service.
 
