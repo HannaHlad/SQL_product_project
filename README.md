@@ -11,6 +11,8 @@ Let’s take a look at the data we will be working with. We have a relational da
 **Structure and contents of the tables:**
 
 **user_actions** — user interactions with orders.
+![ChatGPT Image 7 апр  2025 г , 20_51_36](https://github.com/user-attachments/assets/ed8e7b58-b90f-4cc7-b204-8aad730683fd)
+
 
 **courier_actions** — courier interactions with orders.
 
