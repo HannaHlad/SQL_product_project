@@ -15,6 +15,17 @@ Let’s take a look at the data we will be working with. We have a relational da
 
 
 **courier_actions** — courier interactions with orders.
+### 📄 Table: `courier_actions`
+
+**Description**: Contains the history of couriers’ actions related to orders.
+
+| Column         | Data Type     | Description                                                                 |
+|----------------|---------------|-----------------------------------------------------------------------------|
+| `courier_id`   | `INT`         | Courier ID                                                                  |
+| `order_id`     | `INT`         | Order ID                                                                    |
+| `action`       | `VARCHAR(50)` | Courier's action: `'accept_order'` — order accepted, `'deliver_order'` — order delivered |
+| `time`         | `TIMESTAMP`   | Timestamp of the action                                                     |
+
 
 **orders** — information about orders.
 
