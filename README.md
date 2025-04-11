@@ -15,9 +15,9 @@ Let’s take a look at the data we will be working with. We have a relational da
 
 
 **courier_actions** — courier interactions with orders.
+
 ### 📄 Table: `courier_actions`
 
-**Description**: Contains the history of couriers’ actions related to orders.
 
 | Column         | Data Type     | Description                                                                 |
 |----------------|---------------|-----------------------------------------------------------------------------|
