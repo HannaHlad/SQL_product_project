@@ -11,7 +11,13 @@ Let’s take a look at the data we will be working with. We have a relational da
 **Structure and contents of the tables:**
 
 **user_actions** — user interactions with orders.
-![ChatGPT Image 7 апр  2025 г , 20_51_36](https://github.com/user-attachments/assets/ed8e7b58-b90f-4cc7-b204-8aad730683fd)
+
+| Column Name | Data Type     | Description                                                        |
+|-------------|---------------|--------------------------------------------------------------------|
+| user_id     | INT           | ID of the user                                                    |
+| order_id    | INT           | ID of the order                                                   |
+| action      | VARCHAR(50)   | User's action with the order; 'create_order' = create, 'cancel_order' = cancel |
+| time        | TIMESTAMP     | Time the action was performed                                     |
 
 
 **courier_actions** — courier interactions with orders.
@@ -29,7 +35,19 @@ Let’s take a look at the data we will be working with. We have a relational da
 
 **orders** — information about orders.
 
+| Column Name   | Data Type     | Description                              |
+|---------------|---------------|------------------------------------------|
+| order_id      | INT           | ID of the order                          |
+| creation_time | TIMESTAMP     | Time the order was created               |
+| product_ids   | integer[]     | List of product IDs included in the order |
+
 **users** — information about users.
+
+| Column Name | Data Type   | Description                                                       |
+|-------------|-------------|-------------------------------------------------------------------|
+| user_id     | INT         | ID of the user                                                    |
+| birth_date  | DATE        | Date of birth                                                     |
+| sex         | VARCHAR(50) | Gender; 'male' = male, 'female' = female                      |
 
 **couriers** — information about couriers.
 
