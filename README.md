@@ -22,7 +22,6 @@ Let’s take a look at the data we will be working with. We have a relational da
 
 **courier_actions** — courier interactions with orders.
 
-### 📄 Table: `courier_actions`
 
 
 | Column         | Data Type     | Description                                                                 |
