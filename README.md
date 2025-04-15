@@ -58,3 +58,9 @@ Let’s take a look at the data we will be working with. We have a relational da
 
 **products** — information about the products delivered by the service.
 
+| Column      | Data Type     | Description             |
+|-------------|---------------|-------------------------|
+| `product_id`| `INT`         | Product ID              |
+| `name`      | `VARCHAR(50)` | Product name            |
+| `price`     | `FLOAT(4)`    | Product price           |
+
