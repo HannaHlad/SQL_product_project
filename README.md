@@ -50,5 +50,17 @@ Let’s take a look at the data we will be working with. We have a relational da
 
 **couriers** — information about couriers.
 
+| Column       | Data Type     | Description                                  |
+|--------------|---------------|----------------------------------------------|
+| `courier_id` | `INT`         | Courier ID                                   |
+| `birth_date` | `DATE`        | Date of birth                                |
+| `sex`        | `VARCHAR(50)` | Gender: `'male'` — male, `'female'` — female |
+
 **products** — information about the products delivered by the service.
+
+| Column      | Data Type     | Description             |
+|-------------|---------------|-------------------------|
+| `product_id`| `INT`         | Product ID              |
+| `name`      | `VARCHAR(50)` | Product name            |
+| `price`     | `FLOAT(4)`    | Product price           |
 
